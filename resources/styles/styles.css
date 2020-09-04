@@ -1,0 +1,186 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+    padding-bottom: 0;
+    background-color:#f1f2f3;
+}
+.bold{
+    font-weight: bold;;
+}
+
+.italic {
+    font-style:italic;
+    font-weight: bold;
+}
+.bar {
+    position: relative;
+    background-color: #f00000;
+    color: whitesmoke;
+    width:100%;
+    padding-top: 1rem;
+    text-align: right;
+    
+    
+}
+
+ul{
+    margin: 0;
+    
+}
+li{
+    padding: 10px;
+    padding-top:0;
+    font-size:1.5rem;
+    margin-right: 1.5rem;
+    padding-right: 3.5rem;
+    display:inline-block;
+}
+
+.intro {
+    height:30rem;
+    background-image: url('/resources/images/Arsenal\ banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.intro h1{
+    font-size: 2rem;
+    width:100%;
+    margin-top:0;
+    text-align: center;
+    color:white;
+    padding: 1.5rem 0;
+    margin:0;
+    background-color: rgba(255, 0, 0, 0.7)
+    
+}
+
+.summary, .photos, .quote, .next-game {
+    padding: 0 1rem;
+    margin: 2em auto;
+}
+
+.summary h2 {
+    font-size: 3rem;
+    color: red;
+    text-align: center;
+}
+
+.summary {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.photos figure{
+    display:inline-block;
+    width: 30%;
+    min-height: 100px;
+    margin: 1.5%;;
+}
+.photos figure img{
+    width:100%;
+}
+
+figcaption {
+    text-align: right;
+    font-size:0.65rem;
+}
+
+.quote {
+    padding: 0.25rem 0;
+    width: 98%;
+    border-top: 4px solid red;
+    border-bottom: 4px solid red;
+    color:#5663ab;
+}
+
+.quote h1 {
+    padding:0 10%;
+    font-size: 2.5rem;
+}
+
+.quote p {
+    text-align:right;
+    margin-right: 10%;
+}
+
+.next-game{
+    text-align: center;
+    margin-bottom: 0;
+    padding:0;
+}
+
+.next-game img {
+ width:75%;
+ height: auto;
+ 
+}
+
+.footer {
+    color:#5663ab;
+    position: relative;
+    text-align:center;
+    font-size: 0.75rem;
+    
+}
+
+@media only screen and (max-width: 640px) {
+    .bar {
+        margin:0;
+        padding:0;
+        width:100%;
+    }
+    ul{
+        padding:0;
+        width:100%;
+    }
+    
+    li{
+        display:block;
+        text-align:center;
+        border-bottom: 2px solid white;
+        width:100%;
+        padding:0;
+    }
+
+    .intro {
+        height:auto;
+        background-color:#f1f2f3;
+        background-image: none;
+    }
+
+    .photos{
+        margin:0;
+        padding:0;
+    }
+    .photos figure{
+        width:99%;
+        margin:0.5%;
+        
+    }
+
+    figcaption {
+        text-align: center;
+    }
+
+    .quote h1{
+        font-size: 1rem;
+    }
+
+    .quote p{
+        font-size: 0.75rem;
+        color: black;
+    }
+
+    .next-game img{
+        display: none;
+    }
+
+}
+
